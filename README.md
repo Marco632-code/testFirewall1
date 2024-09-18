@@ -1,10 +1,10 @@
 # testFirewall1
 This is a sample firewall for a website.This is written in shell script. run this file in linux terminal and it creates a firewall with specific requirements. 
-#Tools used:
+# Tools used:
 The tools iptables is used for the making of this tool. The shell script contains of linux commands to setup iptables and to setup the firewall with requirements like the open ports which is 80 and 443 in this case. You can change them if you need in the script. 
-#changes
+# changes
 you can make furthur changes to the script by using nano firewall1.sh and change the values of the script as desired. The default values are the ports are in default set as 80 and 443. The default configurations are HTTP, TCP, UDP you can add more if you need.
-#Logs:
+# Logs:
 By default, iptables logs are often sent to the system log files, which are commonly located in:
 
 /var/log/syslog (Debian/Ubuntu)
@@ -38,5 +38,5 @@ Destination IP Address: The address of your server.
 Protocol: The protocol used (TCP, UDP, etc.).
 Port: The port number associated with the traffic
 
-#NOTE:
+# NOTE:
 this tool is not yet completed and tested new updates may come. The tool will be updated soon.
